@@ -23,7 +23,7 @@ const main = async () => {
 (async () => {
   try {
     const latestVersion = await axios.get(
-      "https://raw.githubusercontent.com/ShadowScripts1/ToMarketBot/refs/heads/main/package.json"
+      "https://raw.githubusercontent.com/ShadowScripts1/TG-ToMarket/refs/heads/main/package.json"
     );
     if (!_.isEqual(latestVersion.data.version, version)) {
       logger.versionWarning(

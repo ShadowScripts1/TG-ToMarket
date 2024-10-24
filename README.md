@@ -20,7 +20,7 @@
 | Random sleep time between clicks                              |    ✅     |
 
 
-## [Settings](https://github.com/ShadowScripts1/ToMarketBot/blob/main/.env-example)
+## [Settings](https://github.com/ShadowScripts1/TG-ToMarket/blob/main/.env-example)
 
 | Settings                       | Description                                                                |
 | ------------------------------ | -------------------------------------------------------------------------- |
@@ -38,43 +38,43 @@
 
 ## Installation
 
-You can download [**Repository**](https://github.com/ShadowScripts1/ToMarketBot) by cloning it to your system and installing the necessary dependencies:
+You can download [**Repository**](https://github.com/ShadowScripts1/TG-ToMarket) by cloning it to your system and installing the necessary dependencies:
 
 ```shell
-~ >>> git clone https://github.com/ShadowScripts1/ToMarketBot.git
-~ >>> cd ToMarketBot
+~ >>> git clone https://github.com/ShadowScripts1/TG-ToMarket
+~ >>> cd TG-ToMarket
 
 #Linux and MocOS
-~/ToMarketBot >>> chmod +x check_node.sh
-~/ToMarketBot >>> ./check_node.sh
+~/TG-ToMarket >>> chmod +x check_node.sh
+~/TG-ToMarket >>> ./check_node.sh
 
 OR
 
-~/ToMarketBot >>> npm install
-~/ToMarketBot >>> cp .env-example .env
-~/ToMarketBot >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
-~/ToMarketBot >>> node index.js
+~/TG-ToMarket >>> npm install
+~/TG-ToMarket >>> cp .env-example .env
+~/TG-ToMarket >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
+~/TG-ToMarket >>> node index.js
 
 #Windows
-1. Double click on INSTALL.bat in ToMarketBot directory to install the dependencies
-2. Double click on START.bat in ToMarketBot directory to start the bot
+1. Double click on INSTALL.bat in TG-ToMarket directory to install the dependencies
+2. Double click on START.bat in TG-ToMarket directory to start the bot
 
 OR
 
-~/ToMarketBot >>> npm install
-~/ToMarketBot >>> cp .env-example .env
-~/ToMarketBot >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/ToMarketBot >>> node index.js
+~/TG-ToMarket >>> npm install
+~/TG-ToMarket >>> cp .env-example .env
+~/TG-ToMarket >>> # Specify your API_ID and API_HASH, the rest is taken by default
+~/TG-ToMarket >>> node index.js
 ```
 
 Also for quick launch you can use arguments, for example:
 
 ```shell
-~/ToMarketBot >>> node index.js --action=1
+~/TG-ToMarket >>> node index.js --action=1
 
 OR
 
-~/ToMarketBot >>> node index.js --action=2
+~/TG-ToMarket >>> node index.js --action=2
 
 #1 - Create session
 #2 - Run clicker
